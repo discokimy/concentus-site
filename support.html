@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concentus Support</title>
+<style>
+  :root { --bg: #fbf8f2; --fg: #1f2a30; --muted: #5b6870; --accent: #0f5866; --rule: #e3ddd1; --card: #ffffff; color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1f25; --fg: #ecf1f2; --muted: #a7b5ba; --accent: #f5a23a; --rule: #23393f; --card: #13292f; color-scheme: dark; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.2rem; margin: 40px 0 12px; color: var(--accent); }
+  .lead { color: var(--muted); margin: 0 0 24px; }
+  .contact { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 16px 20px; }
+  details { border-bottom: 1px solid var(--rule); padding: 12px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+  details p { margin: 8px 0 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 0.9rem; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Concentus Support</h1>
+  <p class="lead">Tuner, chords, scales, ear training and vocal warmups for guitar, charango, cuatro, mandolin, ukulele and more.</p>
+
+  <div class="contact">
+    <strong>Need help or have an idea?</strong><br>
+    Email <a href="mailto:support@concentus.app">support@concentus.app</a>. Every message is read, and suggestions shape future updates.
+  </div>
+
+  <p>Inside the app, every screen has a <strong>?</strong> button with a step-by-step guide, and Settings → Help has all the guides plus a glossary of musical terms.</p>
+
+  <h2>Tuning</h2>
+  <details>
+    <summary>The tuner doesn't react when I play</summary>
+    <p>Open Settings on your iPhone → Privacy &amp; Security → Microphone and make sure Concentus is turned on. Then play one string at a time, let it ring, and hold the phone near your instrument.</p>
+  </details>
+  <details>
+    <summary>It keeps showing the wrong string</summary>
+    <p>When a string is far out of tune, the tuner may think you're aiming for a neighboring string. Tap that string's button at the bottom of the Tuner to lock onto it, tune it, then tap it again to go back to automatic.</p>
+  </details>
+  <details>
+    <summary>Can I keep my AirPods in?</summary>
+    <p>Yes. By default the tuner listens through the iPhone's microphone even with AirPods connected. You can switch to the AirPods microphone in the Tuner's Settings (gear button) → Microphone; this needs recent AirPods and iOS 26 or later.</p>
+  </details>
+  <details>
+    <summary>How do I tune paired strings (mandolin, 12-string, charango)?</summary>
+    <p>Tune one string of the pair at a time while lightly touching the other to keep it quiet. The tuner understands octave pairs, like the charango's E strings.</p>
+  </details>
+
+  <h2>Chords and scales</h2>
+  <details>
+    <summary>Why does a chord name change when I use a capo?</summary>
+    <p>With a capo, the Chords screen names chords as they <em>sound</em> and tells you which shape to play. In Name a Chord, the big name is the shape you tapped, and the line underneath tells you what it sounds like with the capo.</p>
+  </details>
+  <details>
+    <summary>My instrument or tuning isn't listed</summary>
+    <p>Tap the instrument name at the top of any screen. Each instrument's tuning list has <strong>New tuning</strong> at the bottom, and the instrument list has <strong>Build your own instrument</strong>. Chords, scales and the tuner all work with what you create.</p>
+  </details>
+  <details>
+    <summary>I'm left-handed</summary>
+    <p>Turn on Left-handed in the Tuner's Settings (gear button). Chord diagrams and the fretboard flip to match.</p>
+  </details>
+
+  <h2>Your data</h2>
+  <details>
+    <summary>Where are my songs and string logs kept?</summary>
+    <p>Only on your device. They're included in your iPhone's backups if you use iCloud Backup or back up to a computer. Concentus doesn't collect any data; see the <a href="privacy.html">privacy policy</a>.</p>
+  </details>
+  <details>
+    <summary>I'm not getting string-change reminders</summary>
+    <p>Check Settings on your iPhone → Notifications → Concentus and make sure notifications are allowed. Reminders are timed from the most recent string change you logged.</p>
+  </details>
+
+  <footer><a href="index.html">Concentus</a> · <a href="privacy.html">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
